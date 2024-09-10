@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Opens sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1466854076813-4aa9ac0fc347?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.caixa-maior{
+    background: black;
+    opacity: 0.8;
+    border-radius:25px ;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius:25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 50px);
+}
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius:50px ;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+.caixa-media{
+    margin-top: 30px;
+}
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+.img-busca{
+    width: 21px;
+}
+.cidade{
+    color: white;
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.temp{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.previsao{
+    color: white;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.umidade{
+    margin-top: 20px;
+    color: white;
+}

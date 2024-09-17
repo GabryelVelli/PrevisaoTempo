@@ -2,6 +2,8 @@
 
 Este é um aplicativo simples de previsão do tempo que busca os dados meteorológicos de uma cidade usando a API do OpenWeatherMap.
 
+Site: https://velliprevtemp.netlify.app/
+
 ## Funcionalidades
 
 - Exibe a temperatura atual, a descrição do clima e a umidade de uma cidade.
